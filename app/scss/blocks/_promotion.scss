@@ -1,0 +1,40 @@
+.promotion {
+  margin-top: 72px;
+}
+
+.promotion__content {
+  position: relative;
+  font-family: Akrobat;
+  font-weight: regular;
+  text-align: center;
+  font-size: 48px;
+  min-height: 118px;
+  color: #004734;
+  background-image: url("../../images/promotion-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 25px;
+
+  &:before {
+    position: absolute;
+    width: 54px;
+    height: 78px;
+    content: url("../../images/promotion-arrow.png");
+    left: 30px;
+    top: 60px;
+  }
+  &:after {
+    position: absolute;
+    width: 54px;
+    height: 78px;
+    content: url("../../images/promotion-arrow.png");
+    right: 30px;
+    top: 60px;
+    transform: scale(-1, 1);
+  }
+}
+
+.promotion__date {
+  color: #de4814;
+  font-weight: 600;
+}
