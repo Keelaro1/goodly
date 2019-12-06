@@ -16,3 +16,153 @@
   }
 }
 
+@media (max-width: 1600px) {
+  .discounts__text {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .discounts:after {
+    display: none;
+  }
+  .discounts__text {
+    font-size: 90px;
+  }
+  .discounts__sale {
+    display: none;
+  }
+  .discounts__snowman {
+    display: none;
+  }
+  .news__form-input {
+    width: 200px;
+  }
+  #news__form-submit {
+    width: 250px;
+  }
+  .news__form-wrapper:after {
+    display: none;
+  }
+  .news__form-wrapper:before {
+    display: none;
+  }
+}
+
+@media (max-width: 1201px) {
+  .goods__price:after {
+    right: 71px;
+  }
+  .goods__price:before {
+    right: -13px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .promotion__content {
+    background-size: 700px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 2;
+  }
+  .goods__item {
+    width: 440px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .goods__price:after {
+    right: 62px;
+  }
+  .goods__price:before {
+    right: -24px;
+    top: 32px;
+  }
+  #news__form-submit {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .discounts__text {
+    left: 60%;
+    font-size: 80px;
+  }
+  .discounts__arrow {
+    display: none;
+  }
+  .discounts__tree {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  .text-center-xs {
+    text-align: center;
+  }
+  .discounts__text {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .discounts__content {
+    margin-top: 150px;
+  }
+  .promotion__content:after,
+  .promotion__content:before {
+    display: none;
+  }
+  .promotion__content {
+    background-size: 0;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .discounts__text {
+    font-size: 50px;
+  }
+  .discounts__gifts {
+    width: 200px;
+  }
+}
+
+@media (max-width: 510px) {
+  .goods__item {
+    width: 250px;
+  }
+  .goods__item-upper {
+    display: block;
+    img {
+      display: block;
+      padding-bottom: 30px;
+      margin: 0 auto;
+    }
+  }
+  .goods__price:after {
+    top: -286px;
+    right: 68px;
+  }
+  .goods__price:before {
+    right: -15px;
+    top: -215px;
+  }
+  .goods__content {
+    margin: 0;
+    padding: 0 10px;
+  }
+  .goods__secrets a {
+    border-bottom: none;
+  }
+  .goods__hidden-info {
+    padding-bottom: 200px;
+    min-height: 612px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+  .news__form-input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
