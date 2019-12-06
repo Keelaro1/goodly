@@ -6,13 +6,13 @@
   border: 2px dashed #608f7f;
   position: relative;
   &:after {
-    content: url(../../images/news-arrow.png);
+    content: url(../images/news-arrow.png);
     position: absolute;
     right: -130px;
     top: 18px;
   }
   &:before {
-    content: url(../../images/news-arrow.png);
+    content: url(../images/news-arrow.png);
     position: absolute;
     transform: rotateY(180deg);
     left: -130px;

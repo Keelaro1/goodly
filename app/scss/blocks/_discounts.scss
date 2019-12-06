@@ -1,6 +1,6 @@
 .discounts {
   &:after {
-    content: url(../../images/discounts-shadow.png);
+    content: url(../images/discounts-shadow.png);
     position: absolute;
     top: -2px;
     left: 50%;
@@ -13,18 +13,18 @@
   position: relative;
   margin-top: 75px;
   background-color: #f0f0ea;
-  background-image: url(../../images/discounts-bg.png);
+  background-image: url(../images/discounts-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
   &:after {
-    content: url(../../images/discounts-snowflake.png);
+    content: url(../images/discounts-snowflake.png);
     position: absolute;
     top: 0;
     right: 0;
   }
   &:before {
-    content: url(../../images/discounts-snowflake.png);
+    content: url(../images/discounts-snowflake.png);
     position: absolute;
     bottom: 50px;
     right: 0;
@@ -73,7 +73,7 @@
   height: 231px;
   right: 45px;
   margin-top: -110px;
-  background-image: url(../../images/discounts-arrow.png);
+  background-image: url(../images/discounts-arrow.png);
   background-position: 0;
   .arrow-text {
     font-size: 24px;

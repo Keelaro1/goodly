@@ -1,0 +1,18 @@
+// IE 11 desktop fixes
+
+@media screen and (min-width: 0\0) and (min-resolution: +72dpi) {
+  .promotion__content {
+    font-size: 40px;
+    line-height: 1.8;
+  }
+  .goods__secrets {
+    font-size: 20px;
+  }
+  .goods__hidden-info {
+    margin-top: 3px;
+  }
+  .goods__social {
+    font-size: 16px;
+  }
+}
+
