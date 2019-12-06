@@ -1,7 +1,11 @@
 .header {
   background-color: #749c8d;
-  font-size: 29px;
+  font-size: 25px;
   font-family: Tahoma, sans-serif;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
   a {
     color: #fff;
   }
