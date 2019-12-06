@@ -1,0 +1,43 @@
+.news__form-wrapper {
+  margin-top: 65px;
+  margin-right: 12px;
+  background-color: #80c9b0;
+  text-align: center;
+  border: 2px dashed #608f7f;
+  position: relative;
+  &:after {
+    content: url(../../images/news-arrow.png);
+    position: absolute;
+    right: -130px;
+    top: 18px;
+  }
+  &:before {
+    content: url(../../images/news-arrow.png);
+    position: absolute;
+    transform: rotateY(180deg);
+    left: -130px;
+    top: 18px;
+  }
+}
+
+.news__form {
+  padding: 22px 5px;
+  font-family: akrobat, sans-serif;
+}
+
+.news__form-input {
+  padding: 8px 10px;
+  font-size: 18px;
+  width: 285px;
+  margin-right: 12px;
+}
+
+#news__form-submit {
+  padding: 9px 0;
+  font-size: 18px;
+  background-color: #de0d08;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 330px;
+}
