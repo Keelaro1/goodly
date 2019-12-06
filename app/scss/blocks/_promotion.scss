@@ -4,7 +4,7 @@
 
 .promotion__content {
   position: relative;
-  font-family: Akrobat;
+  font-family: Akrobat, sans-serif;
   font-weight: regular;
   text-align: center;
   font-size: 48px;
@@ -13,7 +13,7 @@
   background-image: url("../../images/promotion-bg.png");
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 25px;
+  padding-top: 15px;
 
   &:before {
     position: absolute;
@@ -37,4 +37,5 @@
 .promotion__date {
   color: #de4814;
   font-weight: 600;
+  font-size: 1.2em;
 }
